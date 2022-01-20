@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding-top: 82px;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input[type="button"] {
+  background-color: #3882f6;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 35px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+input[type="button"]:hover {
+  cursor: pointer;
+  background: #3163b3;
+}
+
+header,
+#about,
+footer {
+  background-color: #1f2937;
+}
+
+h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+h3 {
+  margin: 1rem 0;
+}
+
+/* *********************************************************************
+                        Header Section
+********************************************************************* */
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem 0;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #e5e7ebad;
+}
+
+/* *********************************************************************
+                        About Section
+********************************************************************* */
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 0rem 5rem;
+  gap: 2rem;
+}
+
+#about-text {
+  max-width: 30%;
+}
+
+#about-image {
+  max-width: 38%;
+}
+
+#about-text h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 0.5rem;
+}
+
+#about-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 1rem;
+}
+
+/* *********************************************************************
+                        Features Section
+********************************************************************* */
+#features {
+  padding: 90px 0 5rem;
+}
+
+#features-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+i {
+  font-size: 4rem;
+  color: #14418a;
+}
+
+.feature {
+  max-width: 23%;
+  min-width: 250px;
+}
+
+.feature p {
+  line-height: 1.5;
+}
+
+/* *********************************************************************
+                        Testimonials Section
+********************************************************************* */
+#testimonials {
+  background: #e5e7eb;
+  padding: 90px 0;
+}
+
+#testimonials-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.testimonial {
+  max-width: 23%;
+  min-width: 250px;
+  color: #444;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.person img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.person-text {
+  margin-left: 1rem;
+}
+
+.name {
+  margin: 0 0 0.2rem;
+  font-weight: 500;
+}
+
+.title {
+  margin: 0;
+}
+
+/* *********************************************************************
+                        Signup Section
+********************************************************************* */
+#signup {
+  padding: 4rem 0;
+}
+
+#signup-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #3882f6;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 2rem 0;
+  color: #fff;
+  gap: 2rem;
+}
+
+#signup h2 {
+  margin: 0 0 0.5rem 0;
+  color: #fff;
+  font-weight: 500;
+  text-align: left;
+}
+
+#signup p {
+  color: #ddd;
+  font-size: 18px;
+}
+
+#signup input[type="button"] {
+  border: 2px solid #fff;
+  padding: 0.7rem 2.3rem;
+}
+
+#signup input[type="button"]:hover {
+  background: #fff;
+  color: black;
+}
+
+/* *********************************************************************
+                        Footer Section
+********************************************************************* */
+footer {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  color: #ccc;
+}
